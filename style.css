@@ -10,3 +10,45 @@ body {
 }
 
 /* Add styles here! */
+body {
+  line-height: 1.5;
+}
+
+.max-width-wrapper {
+  max-inline-size: 640px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.intro-chunk {
+  padding-inline-start: 16px;
+  max-width: 336px;
+  margin-block-end: 64px;
+}
+
+strong {
+  color: hsl(160deg 100% 30%);
+}
+
+main {
+  background: hsl(0deg 0% 40%);
+  border-block-start: solid 8px hsl(0deg 0% 60%);
+  padding-block: 64px;
+}
+
+.indented-heading {
+  max-inline-size: fit-content;
+  padding: 16px;
+  padding-inline-start: 24px;
+  margin: 0;
+  margin-inline-start: -24px;
+  background: hsl(45deg 100% 50%);
+  border-block-end: solid 8px hsl(45deg 100% 40%);
+}
+
+.card {
+  padding: 16px;
+  padding-block-start: 8px;
+  background: hsl(0deg 0% 100%);
+  border-block-end: solid 8px hsl(0deg 0% 60%);
+}
